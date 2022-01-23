@@ -1,0 +1,9 @@
+examples/*/sitemaps/*.xml
+__temp__
+node_modules
+dist
+.env
+coverage
+blah
+library-test.ts
+library-test.js
