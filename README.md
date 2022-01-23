@@ -1,6 +1,6 @@
 # Typesense Sitemap Generator
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/d2c01e28204d4c33a166eddd70e8b317)](https://www.codacy.com/gh/Adviise/typesense-sitemap/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Adviise/typesense-sitemap&utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/4acbfa496cf94023b264b513039d25c8)](https://www.codacy.com/gh/Adviise/typesense-sitemap/dashboard?utm_source=github.com&utm_medium=referral&utm_content=Adviise/typesense-sitemap&utm_campaign=Badge_Grade)
 
 This is a node library allowing you to generate sitemaps from a Typesense collection. It originally started as a fork of [algolia-sitemap](https://github.com/algolia/algolia-sitemap), but ended up becoming a complete rewrite due to the ways Typesense and Algolia differ in exporting data.
 
