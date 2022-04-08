@@ -45,7 +45,7 @@
         "ts-jest": "^27.1.4",
         "typescript": "^4.6.3"
     },
-    "types": "./dist\\index.d.ts",
+    "types": "./dist/index.d.ts",
     "description": "This is a node library allowing you to generate sitemaps from a Typesense collection. It is inspired by [algolia-sitemap](https://github.com/algolia/algolia-sitemap).",
     "bugs": {
         "url": "https://github.com/adviise/typesense-sitemap/issues"
