@@ -25,13 +25,13 @@
         "xmlbuilder": "^15.1.1"
     },
     "devDependencies": {
-        "@faker-js/faker": "^7.5.0",
+        "@faker-js/faker": "^7.6.0",
         "@types/cli-progress": "^3.11.0",
         "@types/fs-extra": "^9.0.13",
         "@types/jsonlines": "^0.1.2",
-        "@typescript-eslint/eslint-plugin": "^5.39.0",
-        "@typescript-eslint/parser": "^5.39.0",
-        "@vitest/coverage-c8": "^0.24.0",
+        "@typescript-eslint/eslint-plugin": "^5.40.0",
+        "@typescript-eslint/parser": "^5.40.0",
+        "@vitest/coverage-c8": "^0.24.3",
         "dotenv": "^16.0.3",
         "eslint": "^8.25.0",
         "eslint-config-airbnb": "^19.0.4",
