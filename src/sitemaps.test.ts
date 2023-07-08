@@ -32,9 +32,9 @@ const createTempFile = async (totalItems: number) => {
     let fileContent = '';
     for (let i = 0; i < totalItems; i++) {
         const entry: DummyEntry = {
-            id: faker.datatype.uuid(),
-            name: `${faker.name.firstName()} ${faker.name.lastName()}`,
-            photo: faker.image.imageUrl(),
+            id: faker.string.uuid(),
+            name: `${faker.person.firstName()} ${faker.person.lastName()}`,
+            photo: faker.image.url(),
             photoTitle: faker.lorem.sentence(),
         };
         fileContent += `${JSON.stringify(entry)}\n`;
