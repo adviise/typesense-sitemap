@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "cli-progress": "^3.12.0",
-        "fs-extra": "^10.1.0",
+        "fs-extra": "^11.1.1",
         "jsonlines": "^0.1.1",
         "typesense": "^1.5.4",
         "xmlbuilder": "^15.1.1"
@@ -27,7 +27,7 @@
     "devDependencies": {
         "@faker-js/faker": "^8.0.2",
         "@types/cli-progress": "^3.11.0",
-        "@types/fs-extra": "^9.0.13",
+        "@types/fs-extra": "^11.0.1",
         "@types/jsonlines": "^0.1.2",
         "@typescript-eslint/eslint-plugin": "^5.61.0",
         "@typescript-eslint/parser": "^5.61.0",
