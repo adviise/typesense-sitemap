@@ -142,10 +142,11 @@ export const generateSitemap = async (
 export const createSitemapIndexElement = (
     sitemapLoc: string,
     sitemapIndex: number,
-    lastmod: Date
+    lastmod: Date,
+    sitemapName: string
 ) => {
     const sitemapEl = builder.create('sitemap');
-    sitemapEl.ele('loc', {}, `${sitemapLoc}/sitemap.${sitemapIndex + 1}.xml`);
+    sitemapEl.ele('loc', {}, `${sitemapLoc}/${sitemapName}.${sitemapIndex + 1}.xml`);
     sitemapEl.ele('lastmod', {}, lastmod.toISOString());
     return sitemapEl;
 };
@@ -161,7 +162,7 @@ export const generateSitemapIndex = async (
     const root = builder.create('sitemapindex', { encoding: 'utf-8' });
     root.attribute('xmlns', 'http://www.sitemaps.org/schemas/sitemap/0.9');
     for (let i = 0; i < sitemapCount; i++) {
-        root.children.push(createSitemapIndexElement(sitemapLoc, i, now));
+        root.children.push(createSitemapIndexElement(sitemapLoc, i, now, sitemapName));
     }
     const finalOutput = root.end({ pretty: !minifyOutput });
     await writeFile(`${outputFolder}/${sitemapName}.xml`, finalOutput);
