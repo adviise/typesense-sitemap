@@ -1,6 +1,6 @@
 {
   "name": "typesense-sitemap",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "This is a node library allowing you to generate sitemaps from a Typesense collection. It is inspired by [algolia-sitemap](https://github.com/algolia/algolia-sitemap).",
   "license": "MIT",
   "packageManager": "pnpm@10.15.0",
@@ -29,8 +29,10 @@
   },
   "dependencies": {
     "cli-progress": "^3.12.0",
+    "dotenv": "^8.2.0",
     "fs-extra": "^11.3.1",
     "jsonlines": "^0.1.1",
+    "node-fetch": "^3.3.2",
     "typesense": "^2.1.0",
     "xmlbuilder": "^15.1.1"
   },
