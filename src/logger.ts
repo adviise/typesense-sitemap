@@ -1,8 +1,7 @@
 let shouldEmitLogs = false;
 
-export const log = (message: any) => {
+export const log = (message: unknown) => {
     if (shouldEmitLogs) {
-        // eslint-disable-next-line no-console
         console.log(message);
     }
 };
