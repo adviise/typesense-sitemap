@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 import { describe, test, expect, beforeAll, afterAll } from 'vitest';
 import { XMLParser } from 'fast-xml-parser';
 import {

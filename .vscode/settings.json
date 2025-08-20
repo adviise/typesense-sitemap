@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "cSpell.words": [
+    "Adviise",
+    "joshmossas",
+    "jsonlines",
+    "sitemapindex",
+    "testdata",
+    "typesense"
+  ]
+}

@@ -10,13 +10,14 @@ It will create sitemaps in a directory of your choosing (for example `/sitemaps`
 
 ## Table of Contents
 
--   [How does it work?](#how-does-it-work)
--   [Usage](#usage)
-    -   [Getting Started](#getting-started)
-    -   [Transforming Documents](#transforming-documents)
-    -   [Filtering Results](#filtering-results)
--   [Memory Considerations](#memory-considerations)
--   [License](#license)
+- [How does it work?](#how-does-it-work)
+- [Usage](#usage)
+    - [Getting Started](#getting-started)
+    - [Transforming Documents](#transforming-documents)
+    - [Filtering Results](#filtering-results)
+- [Memory Considerations](#memory-considerations)
+- [License](#license)
+- [Contribution Guide](#contribution-guide)
 
 ## How does it work?
 
@@ -187,3 +188,9 @@ typsenseSitemap({
 ## License
 
 MIT
+
+## Contribution Guide
+
+- Run `pnpm format` before submitting a PR
+- CI will automatically run the linter and tests.
+- If you are planning on adding a large feature open an issue first for discussion.

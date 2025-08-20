@@ -48,6 +48,7 @@ export interface SitemapItem {
     };
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export type DocTransformer<T = any> = (hit: T) => SitemapItem | false;
 
 export const createSitemapItemElement = (
