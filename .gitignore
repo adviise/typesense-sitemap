@@ -6,4 +6,4 @@ coverage
 blah
 library-test.ts
 library-test.js
-config.bat
+.env
